@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <title>Carmel_clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/
+font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <h1>About US</h1>
+    </section>
+
+<!------------about us----------------------------------------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>The world's best college</h1>
+            <p>The apex of academic excellence, fosters a transformative 
+                journey where diverse minds converge. Dynamic classrooms, 
+                passionate educators, and vibrant extracurriculars create 
+                an unparalleled environment for personal and intellectual 
+                growth. It's a crucible where dreams flourish, forging 
+                resilient individuals prepared to make meaningful 
+                contributions to society. Welcome to the best years of 
+                your life.</p>
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="img/main-gate.jpg">
+
+        </div>
+    </div>
+</section>
+
+
+<!------------------------------footer---------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Carmel College of Engineering & Technology (CCET) is owned and 
+        managed by St. Joseph`s Carmel Educational & Charitable Trust 
+        of CMI, registered on 13-09-2012. The Institution was 
+        established by the public charitable trust in 2014-15 at 
+        Punnapra, Alappuzha, with the object of providing Engineering
+         & Technology education to all classes of the society. Carmel
+          College of Engineering & Technology, Alappuzha is the only 
+          Engineering College offering UG level courses under the 
+          Province of St.Joseph, Thiruvananthapuram. CCET is a 
+          self-financing college approved by AICTE and affiliated 
+          to APJ Abdul Kalam Technological University, Kerala which
+           offers 4 year B.Tech degree courses in Civil Engineering, 
+           Mechanical Engineering, Electrical and Electronics 
+           Engineering and Computer Science and Engineering.</p>
+           <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+           </div>
+           <p>made with<i class="fa-regular fa-heart"></i> by bdhu</p>
+</section>
+
+<!-------------------------------javascript------------------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>
